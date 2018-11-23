@@ -485,7 +485,6 @@ def main(args=None):
         steps_per_epoch=args.steps,
         epochs=args.epochs,
         verbose=1,
-        #validation_steps = args.steps_for_validation,
         validation_data = validation_generator,
         callbacks=callbacks,
     )
