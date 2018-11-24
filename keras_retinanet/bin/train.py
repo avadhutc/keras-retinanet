@@ -487,7 +487,8 @@ def main(args=None):
         verbose=1,
         callbacks=callbacks,
     )
-
+    
+    return history
 
 if __name__ == '__main__':
     main()
